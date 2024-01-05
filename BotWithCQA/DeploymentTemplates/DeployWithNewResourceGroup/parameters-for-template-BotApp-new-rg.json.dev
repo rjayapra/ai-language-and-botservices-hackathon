@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "groupName": {
+      "value": "bot-workshop-rg"
+    },
+    "groupLocation": {
+      "value": "canadacentral"
+    },
+    "appServiceName": {
+      "value": "botappworkshop"
+    },
+    "appServicePlanName": {
+      "value": "botappworkshop-plan"
+    },
+    "appServicePlanLocation": {
+      "value": "canadacentral"
+    },
+    "appServicePlanSku": {
+      "value": {
+        "name": "S1",
+        "tier": "Standard",
+        "size": "S1",
+        "family": "S",
+        "capacity": 1
+      }
+    },
+    "appType": {
+      "value": "MultiTenant"
+    },
+    "appId": {
+      "value": ""
+    },
+    "appSecret": {
+      "value": ""
+    },
+    "UMSIName": {
+      "value": ""
+    },
+    "UMSIResourceGroupName": {
+      "value": ""
+    },
+    "tenantId": {
+      "value": ""
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "groupName": {
+      "value": "bot-workshop-rg"
+    },
+    "groupLocation": {
+      "value": "canadacentral"
+    },
+    "azureBotId": {
+      "value": "ai-workshopbot"
+    },
+    "azureBotSku": {
+      "value": "S1"
+    },
+    "azureBotRegion": {
+      "value": "global"
+    },
+    "botEndpoint": {
+      "value": "https://botappworkshop.azurewebsites.net/api/messages"
+    },
+    "appType": {
+      "value": "UserAssignedMSI"
+    },
+    "appId": {
+      "value": "adf3381f-9fd7-42d7-9b79-5da57c10779b"
+    },
+    "UMSIName": {
+      "value": "bot-workshop-msi"
+    },
+    "UMSIResourceGroupName": {
+      "value": "bot-workshop-rg"
+    },
+    "tenantId": {
+      "value": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+    }
+  }
+}
