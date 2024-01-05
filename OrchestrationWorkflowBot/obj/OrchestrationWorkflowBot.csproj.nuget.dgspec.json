@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rjayaprakash\\Workspace\\customers\\CRA\\ai-services-hackathon\\OrchestrationWorkflowBot\\OrchestrationWorkflowBot.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rjayaprakash\\Workspace\\customers\\CRA\\ai-services-hackathon\\OrchestrationWorkflowBot\\OrchestrationWorkflowBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rjayaprakash\\Workspace\\customers\\CRA\\ai-services-hackathon\\OrchestrationWorkflowBot\\OrchestrationWorkflowBot.csproj",
+        "projectName": "OrchestrationWorkflowBot",
+        "projectPath": "C:\\Users\\rjayaprakash\\Workspace\\customers\\CRA\\ai-services-hackathon\\OrchestrationWorkflowBot\\OrchestrationWorkflowBot.csproj",
+        "packagesPath": "C:\\Users\\rjayaprakash\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rjayaprakash\\Workspace\\customers\\CRA\\ai-services-hackathon\\OrchestrationWorkflowBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rjayaprakash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.AI.Language.Conversations": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.Bot.Builder": {
+              "target": "Package",
+              "version": "[4.21.2, )"
+            },
+            "Microsoft.Bot.Builder.Dialogs": {
+              "target": "Package",
+              "version": "[4.21.2, )"
+            },
+            "Microsoft.Bot.Builder.Integration.AspNet.Core": {
+              "target": "Package",
+              "version": "[4.21.2, )"
+            },
+            "Microsoft.Bot.Configuration": {
+              "target": "Package",
+              "version": "[4.21.2, )"
+            },
+            "Microsoft.Bot.Connector": {
+              "target": "Package",
+              "version": "[4.21.2, )"
+            },
+            "Microsoft.Bot.Schema": {
+              "target": "Package",
+              "version": "[4.21.2, )"
+            },
+            "Microsoft.Recognizers.Text.DataTypes.TimexExpression": {
+              "target": "Package",
+              "version": "[1.8.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.125\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

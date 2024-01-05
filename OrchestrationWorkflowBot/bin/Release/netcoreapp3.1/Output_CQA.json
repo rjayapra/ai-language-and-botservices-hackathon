@@ -1,0 +1,115 @@
+{
+  "query": "What are surface book features",
+  "prediction": {
+    "topIntent": "Surface_QA",
+    "projectKind": "Orchestration",
+    "intents": {
+      "Surface_QA": {
+        "confidenceScore": 0.9277229,
+        "targetProjectKind": "QuestionAnswering",
+        "result": {
+          "answers": [
+            {
+              "questions": [
+                "Surface Book features"
+              ],
+              "answer": "**Surface Book features**\n\n| Power button | Press the power button to turn your Surface Book on. You can also use the power button to put your Surface Book to sleep and wake it when you’re ready to start working again. |\n| --- | --- |\n| Clipboard | Detach the thin, light Clipboard from the keyboard for mobile computing and easy presentation in tablet mode.  Use the 13.5” full HD display, with its 3:2 aspect ratio and 3000 x 2000 resolution display, to watch HD movies, browse the web, and use your favorite apps. |\n\n|  | The 10-point multi-touch touchscreen lets you use your fingers to select, zoom, and move things around. |\n| --- | --- |\n| Keyboard | Mechanical friction attaches the Clipboard to the keyboard. The keyboard features a standard layout and backlit keys, with special shortcut and function keys to help you do common tasks more quickly. |\n| Surface Pen | Write naturally with the included Surface Pen. Quickly jot down notes or capture screenshots in OneNote, even while your Surface is locked. |\n| Wi-Fi and Bluetooth | Surface Book supports standard Wi-Fi protocols (802.11a/b/g/n/ac) and Bluetooth® 4.0. Connect to a wireless network and use Bluetooth devices such as mice, printers, and headsets. |\n| Cameras | Surface Book features an 8-megapixel rear camera with autofocus and a 5-megapixel, fixed-focus front camera. Both cameras are high resolution and record video in 1080p, with a 16:9 aspect ratio (widescreen).  Surface Book is also Windows Hello compatible with an infrared (IR) face-detection camera built in. |\n| Microphones | Two noise-canceling microphones ensure accurate audio recording and enhanced call quality. |\n| Stereo speakers | Two front-facing stereo speakers with Dolby® enhanced sound provide an immersive playback experience for all your music, podcasts, and audio books. |\n\n| Ports and connectors | Surface Book has the ports you expect from a full-feature laptop. Two full-size USB 3.0 ports Connect a USB accessory like a mouse, printer, Ethernet adapter, USB drive, or smartphone. SD card slot Use the full-size SD card slot with an SD card (sold separately) for extra storage and transferring files. Mini DisplayPort version 1.2a Share what’s on your Surface screen by connecting it to an HDTV, monitor, or projector. (Video adapters are sold separately.) 3.5 mm headset jack Plug in your favorite headset for a little more privacy when listening to music or conference calls. |\n| --- | --- |\n| Software | Windows 10 operating system Windows 10 provides a variety of options for entertainment and productivity whether you’re at school, at home, or on the go. |\n\n|  | Apps Surface Book comes with great built-in apps, and you can find more apps in the [Windows Store](http://windows.microsoft.com/en-us/windows-10/getstarted-explore-the-store) .  You can also use your favorite desktop apps on Surface Book. |\n| --- | --- |\n| Processor | The 6th Gen Intel® Core™ i5 or i7 processor provides the speed and power you need for smooth, fast performance. |\n| Memory and storage | Choose from various configurations up to 16 GB of RAM with 512 GB storage. |\n| Sensors | Six sensors—magnetometer, ambient light sensor, accelerometer, gyroscope, Hall effect, and Wi-Fi SAR—let apps do things like track motion and determine location. |",
+              "confidenceScore": 0.99,
+              "id": 4,
+              "source": "https://download.microsoft.com/download/7/B/1/7B10C82E-F520-4080-8516-5CF0D803EEE0/surface-book-user-guide-EN.pdf",
+              "metadata": {
+                "explicitlytaggedheading": "surface book features"
+              },
+              "dialog": {
+                "isContextOnly": false,
+                "prompts": [
+                  {
+                    "displayOrder": 0,
+                    "qnaId": 5,
+                    "displayText": "Power button"
+                  },
+                  {
+                    "displayOrder": 1,
+                    "qnaId": 6,
+                    "displayText": "Clipboard"
+                  },
+                  {
+                    "displayOrder": 2,
+                    "qnaId": 7,
+                    "displayText": "Keyboard"
+                  },
+                  {
+                    "displayOrder": 3,
+                    "qnaId": 8,
+                    "displayText": "Surface Pen"
+                  },
+                  {
+                    "displayOrder": 4,
+                    "qnaId": 9,
+                    "displayText": "Wi-Fi and Bluetooth"
+                  },
+                  {
+                    "displayOrder": 5,
+                    "qnaId": 10,
+                    "displayText": "Cameras"
+                  },
+                  {
+                    "displayOrder": 6,
+                    "qnaId": 11,
+                    "displayText": "Microphones"
+                  },
+                  {
+                    "displayOrder": 7,
+                    "qnaId": 12,
+                    "displayText": "Stereo speakers"
+                  },
+                  {
+                    "displayOrder": 8,
+                    "qnaId": 13,
+                    "displayText": "Ports and connectors"
+                  },
+                  {
+                    "displayOrder": 9,
+                    "qnaId": 14,
+                    "displayText": "Software"
+                  },
+                  {
+                    "displayOrder": 10,
+                    "qnaId": 15,
+                    "displayText": "Processor"
+                  },
+                  {
+                    "displayOrder": 11,
+                    "qnaId": 16,
+                    "displayText": "Memory and storage"
+                  },
+                  {
+                    "displayOrder": 12,
+                    "qnaId": 17,
+                    "displayText": "Sensors"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "Usage": {
+        "confidenceScore": 0.36396626,
+        "targetProjectKind": "NonLinked"
+      },
+      "Book_Update_Cancel_Respond_Meeting_ViewCalendar": {
+        "confidenceScore": 0.17428689,
+        "targetProjectKind": "Conversation"
+      },
+      "Meeting": {
+        "confidenceScore": 0.16095537,
+        "targetProjectKind": "NonLinked"
+      },
+      "None": {
+        "confidenceScore": 0,
+        "targetProjectKind": "NonLinked"
+      }
+    }
+  }
+}

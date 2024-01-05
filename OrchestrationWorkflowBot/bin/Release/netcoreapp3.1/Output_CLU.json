@@ -1,0 +1,141 @@
+{
+  "query": "Book a meeting with Joh for next Wednesday between 2-3PM",
+  "prediction": {
+    "topIntent": "Book_Update_Cancel_Respond_Meeting_ViewCalendar",
+    "projectKind": "Orchestration",
+    "intents": {
+      "Book_Update_Cancel_Respond_Meeting_ViewCalendar": {
+        "confidenceScore": 0.8754766,
+        "targetProjectKind": "Conversation",
+        "result": {
+          "query": "Book a meeting with Joh for next Wednesday between 2-3PM",
+          "prediction": {
+            "topIntent": "UpdateMeeting",
+            "projectKind": "Conversation",
+            "intents": [
+              {
+                "category": "UpdateMeeting",
+                "confidenceScore": 0.8570798
+              },
+              {
+                "category": "BookMeeting",
+                "confidenceScore": 0.8170519
+              },
+              {
+                "category": "CancelMeeting",
+                "confidenceScore": 0.7792484
+              },
+              {
+                "category": "ViewCalendar",
+                "confidenceScore": 0.7439664
+              },
+              {
+                "category": "RespondMeetingRequest",
+                "confidenceScore": 0.66865546
+              },
+              {
+                "category": "None",
+                "confidenceScore": 0
+              }
+            ],
+            "entities": [
+              {
+                "category": "Decide",
+                "text": "Book",
+                "offset": 0,
+                "length": 4,
+                "confidenceScore": 1
+              },
+              {
+                "category": "Subject",
+                "text": "meeting",
+                "offset": 7,
+                "length": 7,
+                "confidenceScore": 1,
+                "extraInformation": [
+                  {
+                    "extraInformationKind": "EntitySubtype",
+                    "value": "general.event"
+                  }
+                ]
+              },
+              {
+                "category": "Attendants",
+                "text": "with Joh",
+                "offset": 15,
+                "length": 8,
+                "confidenceScore": 1,
+                "extraInformation": [
+                  {
+                    "extraInformationKind": "EntitySubtype",
+                    "value": "person.name"
+                  }
+                ]
+              },
+              {
+                "category": "Date",
+                "text": "next Wednesday between 2-3PM",
+                "offset": 28,
+                "length": 28,
+                "confidenceScore": 1,
+                "resolutions": [
+                  {
+                    "resolutionKind": "TemporalSpanResolution",
+                    "timex": "(2024-01-10T14,2024-01-10T15,PT1H)",
+                    "duration": "PT1H",
+                    "begin": "2024-01-10 14:00:00",
+                    "end": "2024-01-10 15:00:00"
+                  }
+                ],
+                "extraInformation": [
+                  {
+                    "extraInformationKind": "EntitySubtype",
+                    "value": "datetime.datetimerange"
+                  }
+                ]
+              },
+              {
+                "category": "Duration",
+                "text": "next Wednesday between 2-3PM",
+                "offset": 28,
+                "length": 28,
+                "confidenceScore": 1,
+                "resolutions": [
+                  {
+                    "resolutionKind": "TemporalSpanResolution",
+                    "timex": "(2024-01-10T14,2024-01-10T15,PT1H)",
+                    "duration": "PT1H",
+                    "begin": "2024-01-10 14:00:00",
+                    "end": "2024-01-10 15:00:00"
+                  }
+                ],
+                "extraInformation": [
+                  {
+                    "extraInformationKind": "EntitySubtype",
+                    "value": "datetime.datetimerange"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Meeting": {
+        "confidenceScore": 0.8155642,
+        "targetProjectKind": "NonLinked"
+      },
+      "Surface_QA": {
+        "confidenceScore": 0.29922068,
+        "targetProjectKind": "QuestionAnswering"
+      },
+      "Usage": {
+        "confidenceScore": 0.08308776,
+        "targetProjectKind": "NonLinked"
+      },
+      "None": {
+        "confidenceScore": 0,
+        "targetProjectKind": "NonLinked"
+      }
+    }
+  }
+}
