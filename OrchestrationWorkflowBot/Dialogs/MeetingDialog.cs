@@ -38,7 +38,7 @@ namespace OrchestrationWorkflow.Dialogs
         private async Task<DialogTurnResult> MeetingStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             var meetingDetails = (MeetingDetails)stepContext.Options;
-
+            
             if (meetingDetails.MeetingDate == null)
             {
                 var promptMessage = MessageFactory.Text(MeetingStepMsgText, MeetingStepMsgText, InputHints.ExpectingInput);
@@ -51,6 +51,8 @@ namespace OrchestrationWorkflow.Dialogs
         private async Task<DialogTurnResult> AttendantStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             var meetingDetails = (MeetingDetails)stepContext.Options;
+            meetingDetails.MeetingDate = (string)stepContext.Result;
+            
 
             if (meetingDetails.Attendants == null)
             {
@@ -64,10 +66,11 @@ namespace OrchestrationWorkflow.Dialogs
         private async Task<DialogTurnResult> MeetingLocationStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             var meetingDetails = (MeetingDetails)stepContext.Options;
-
+            meetingDetails.Attendants = (string)stepContext.Result;
+            
             if (meetingDetails.MeetingLocation == null )
             {
-                var promptMessage = MessageFactory.Text(MeetingStepMsgText, MeetingStepMsgText, InputHints.ExpectingInput);
+                var promptMessage = MessageFactory.Text(LocationStepMsgText, LocationStepMsgText, InputHints.ExpectingInput);
                 return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken)
 ;            }
 
@@ -77,6 +80,7 @@ namespace OrchestrationWorkflow.Dialogs
         private async Task<DialogTurnResult> ConfirmStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             var meetingDetails = (MeetingDetails)stepContext.Options;
+            meetingDetails.MeetingLocation = (string)stepContext.Result;
 
             var messageText = $"Please confirm, I have your meeting set to: {meetingDetails.MeetingDate} , Attended by: {meetingDetails.Attendants} at {meetingDetails.MeetingLocation}. Is this correct?";
             var promptMessage = MessageFactory.Text(messageText, messageText, InputHints.ExpectingInput);

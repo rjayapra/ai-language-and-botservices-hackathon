@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net6.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/f52809bc-211c-4495-a140-686c5fa04ed7/resourceGroups/bot-workshop-rg/providers/Microsoft.Web/sites/botappworkshop"
+}
