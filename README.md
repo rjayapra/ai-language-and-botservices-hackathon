@@ -77,9 +77,9 @@ Use Language Studio to try out the features without any code : [Language Studio]
 | :point_down: [Module 4](custom-storage-bot/) | __Custom Storage bot__ <br> Understand the different storage options - Memory, Blob storage and CosmosDB storage.[custom-storage-bot](custom-storage-bot/) |
 | :point_down: [Module 5](state-management-bot/) | __State management bot__ <br> Store the user and conversation state in Memory or custom storage. State store can be used to understand the user interactions [state-management-bot](state-management-bot/) |
 | :point_down: [Module 6](BotMonitoring/) | __Bot Monitoring__ <br> Add telemetry to bot solution, use metrics and logs to understand the status of bots and troubleshoot [BotMonitoring](BotMonitoring/) |
-| :point_down: [Module 7](inspection-bot/) | __Debugging__ <br> Understand different options/techniques to debug a bot. Use this example to invoke inspection middleware to debug the bot.[inspection-bot](inspection-bot/) |
-| :point_down: [Module 8](BotTests/) |  __Unit Testing__ <br> Add unit tests to bot. Refer this sample core bot example to add test cases and validate the bot[BotTests](BotTests/) |
-| :point_down: [Module 9](middleware-multilingual-bot/) | __Middleware__ <br> Bots can use the inbuilt middleware like logging, telemetry , translation etc., before or after every turns. Also can use custom middleware created as well. In this example we will try to use a translation service and invoke the translation middleware on configured languages.[Middleware Bot](middleware-multilingual-bot/) |
+| :point_down: [Module 7](inspection-bot/) | __Debugging__ <br> Understand different options/techniques to debug a bot. Use this example to invoke inspection middleware to debug the bot. [inspection-bot](inspection-bot/) |
+| :point_down: [Module 8](BotTests/) |  __Unit Testing__ <br> Add unit tests to bot. Refer this sample core bot example to add test cases and validate the bot [BotTests](BotTests/) |
+| :point_down: [Module 9](middleware-multilingual-bot/) | __Middleware__ <br> Bots can use the inbuilt middleware like logging, telemetry , translation etc., before or after every turns. Also can use custom middleware created as well. In this example we will try to use a translation service and invoke the translation middleware on configured languages. [Middleware Bot](middleware-multilingual-bot/) |
 
 
 ## Training materials
