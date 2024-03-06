@@ -37,12 +37,13 @@ The API uses the most modern neural machine translation technology, as well as o
 - Clone the repository
 
     ```bash
-    git clone https://github.com/microsoft/botbuilder-samples.git
+    git clone https://github.com/ai-services-hackathon
+    cd ai-services-hackathon/middleware-multilingual-bot
     ```
 
 - Run the bot from a terminal or from Visual Studio:
 
-  A) From a terminal, navigate to `samples/csharp_dotnetcore/17.multilingual-bot`
+  A) From a terminal, navigate to `ai-services-hackathon/middleware-multilingual-bot`
 
   ```bash
   # run the bot
@@ -53,7 +54,7 @@ The API uses the most modern neural machine translation technology, as well as o
 
   - Launch Visual Studio
   - File -> Open -> Project/Solution
-  - Navigate to `samples/csharp_dotnetcore/17.multilingual-bot` folder
+  - Navigate to `ai-services-hackathon/middleware-multilingual-bot` folder
   - Select `MultiLingualBot.csproj` file
   - Press `F5` to run the project
 

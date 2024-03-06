@@ -1,4 +1,4 @@
-﻿# Custom Question Answering
+﻿# Custom Question Answering Bot - Monitoring
 
 Bot Framework v4 Custom question answering bot sample.
 
@@ -8,6 +8,8 @@ This bot has been created using the [Bot Framework SDK][BF], it shows how to cre
 
 ## Prerequisites
 - This project requires a [Language service resource](https://aka.ms/create-language-resource) with Custom question answering enabled.
+- App Insights enabled in the associated resource group
+- AppInsights Key - tobe configured in the appsettings.json
 
 ### Configure knowledge base of the project
 - See the [quickstart][Quickstart] to create a Custom question answering project. You will need this project's name  to be used as `ProjectName` in [appsettings.json](appsettings.json).
@@ -33,9 +35,10 @@ Follow these steps to update [appsettings.json](appsettings.json):
 
     ```bash
     git clone https://github.com/rjayapra/ai-services-hackathon/
+    cd ai-services-hackathon/BotMonitoring
     ```
 
-- In a terminal, navigate to `BotWithCQA`
+- In a terminal, navigate to `ai-services-hackathon/BotMonitoring`
 - Run the bot, either from a terminal or from Visual Studio, using the appropriate steps below:
 
   A) From a terminal
@@ -49,23 +52,19 @@ Follow these steps to update [appsettings.json](appsettings.json):
 
   - Launch Visual Studio
   - File -> Open -> Project/Solution
-  - Navigate to `BotWithCQA` folder
-  - Select `CustomQABot.csproj` file
+  - Navigate to `BotMonitoring` folder
+  - Select `CustomQABotMonitoring.csproj` file
   - Press `F5` to run the project
 - Connect to the bot using Bot Framework Emulator
   1. Launch Bot Framework Emulator
   2. File -> Open Bot
   3. Enter a Bot URL of `http://localhost:3978/api/messages`
 
-## Try precise answering
-- Try the following utterances:
-  1. Accessibility
-  2. Register
-- You should see a short answer returned, along with a long answer.
-- If you're testing in [Language Studio][LS], you might have to check `Include short answer response` at the top.
-- You can disable precise answering by setting `EnablePreciseAnswer` to false in [appsettings.json](appsettings.json).
-- To only see precise answers in the response, set `DisplayPreciseAnswerOnly` to true in [appsettings.json](appsettings.json).
-- To learn more, see [precise answering][PA].
+## Application Insights
+- Navigate to Application insights on Azure portal
+- Understand the application map
+- Review the end-end transaction, user flows, failure chart
+- Review logs and metrics
 
 ## Deploy the bot to Azure
 See [Deploy your C# bot to Azure][50] for instructions.

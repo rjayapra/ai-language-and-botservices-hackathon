@@ -24,12 +24,12 @@ More details are available [here](https://github.com/microsoft/BotFramework-Emul
 - Clone the repository
 
     ```bash
-    git clone https://github.com/Microsoft/botbuilder-samples.git
+    git clone https://github.com/rjayapra/ai-services-hackathon
     ```
 
 - Run the bot from a terminal or from Visual Studio:
 
-  A) From a terminal, navigate to `samples/csharp_dotnetcore/47.inspection`
+  A) From a terminal, navigate to `ai-services-hackathon/inspection-bot`
 
   ```bash
   # run the bot
@@ -40,7 +40,7 @@ More details are available [here](https://github.com/microsoft/BotFramework-Emul
 
   - Launch Visual Studio
   - File -> Open -> Project/Solution
-  - Navigate to `samples/csharp_dotnetcore/47.inspection` folder
+  - Navigate to `ai-services-hackathon/inspection` folder
   - Select `Inspection.csproj` file
   - Press `F5` to run the project
 
