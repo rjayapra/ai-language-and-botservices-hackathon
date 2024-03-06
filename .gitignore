@@ -49,9 +49,6 @@ Generated\ Files/
 TestResult.xml
 nunit-*.xml
 
-#Dev files
-*.dev
-
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
@@ -100,7 +97,7 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
-
+*.dev
 # Chutzpah Test files
 _Chutzpah*
 
