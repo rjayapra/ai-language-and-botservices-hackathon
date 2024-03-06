@@ -27,19 +27,19 @@
       }
     },
     "appType": {
-      "value": "MultiTenant"
+      "value": "User-assigned managed identity"
     },
     "appId": {
-      "value": ""
+      "value": "adf3381f-9fd7-42d7-9b79-5da57c10779b"
     },
     "appSecret": {
       "value": ""
     },
     "UMSIName": {
-      "value": ""
+      "value": "bot-workshop-msi"
     },
     "UMSIResourceGroupName": {
-      "value": ""
+      "value": "bot-workshop-rg"
     },
     "tenantId": {
       "value": ""
